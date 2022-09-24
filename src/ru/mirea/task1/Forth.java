@@ -1,8 +1,8 @@
 package ru.mirea.task1;
 import java.util.Scanner;
 
-public class forth {
-    public static int getFactorial(int f) {
+public class Forth {
+    public int getFactorial(int f) {
         int result = 1;
         for (int i = 1; i <= f; i++) {
             result = result * i;
@@ -12,7 +12,7 @@ public class forth {
     }
     public static void main(String []args) {
         int s;
-        forth Object_of_method = new forth();
+        Forth Object_of_method = new Forth();
         for(int i = 0; i <= 5; i++){
             Scanner value = new Scanner(System.in);
             s = value.nextInt();
